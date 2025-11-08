@@ -1,0 +1,116 @@
+# ==========================================
+# Ocean FFT - Git Ignore Configuration
+# ==========================================
+
+# Build artifacts
+build/
+build-*/
+cmake-build-*/
+out/
+bin/
+
+# IDE specific
+.vs/
+.vscode/
+!.vscode/c_cpp_properties.json
+*.sln
+*.vcxproj*
+*.user
+*.suo
+.idea/
+*.iml
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.so.*
+*.dylib
+*.a
+*.lib
+*.out
+*.app
+
+# Object files
+*.o
+*.obj
+*.ko
+*.elf
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+*.cmake
+!CMakeLists.txt
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# ImGui ini (user preferences)
+imgui.ini
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# Dependencies (keep source, ignore if downloaded locally)
+# Uncomment these lines if you bundle dependencies:
+# lib/
+# include/glad/
+# include/KHR/
+# include/imgui/
+
+# vcpkg artifacts
+vcpkg_installed/
+
+# Logs and debug
+*.log
+*.dSYM/
+*.pdb
+*.idb
+
+# Profiling
+*.prof
+*.gcov
+*.gcda
+*.gcno
+
+# Documentation build (Doxygen)
+docs/html/
+docs/latex/
+
+# Assets - Keep curated screenshots only
+# (Uncomment to ignore all images)
+# *.png
+# *.jpg
+# *.gif
+# *.mp4
+
+# Keep documentation images
+!docs/images/*.png
+!docs/images/*.jpg
+!docs/images/*.gif
+!docs/*.png
+!docs/*.jpg
+
+# Python cache (if using scripts)
+__pycache__/
+*.py[cod]
+
+# Temporary / Generated files
+response.xml
+*.cache
